@@ -280,3 +280,25 @@ md-backdrop.md-sidenav-backdrop {
     background-color: rgba(0, 0, 0, 0.12);
   }
 }
+
+
+
+/* Ashish */
+.cstm-brighten img {
+  -webkit-filter: brightness(45%);
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.cstm-brighten img:hover {
+  -webkit-filter: brightness(100%);
+}
+
+.cstm-home-left img {
+  width: 50%;
+  margin-left: 0px;
+  height: 100%;
+}

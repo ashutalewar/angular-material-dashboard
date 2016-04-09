@@ -13,6 +13,13 @@ angular.module('angularMaterialAdmin', ['ngAnimate', 'ngCookies', 'ngTouch',
         controllerAs: 'vm',
         abstract: true
       })
+      .state('homepage', {
+        url: '/homepage',
+        templateUrl: 'app/views/home.html',
+        controller: 'HomeController',
+        controllerAs: 'vm',
+        abstract: false
+      })
       .state('home.dashboard', {
         url: '/dashboard',
         templateUrl: 'app/views/dashboard.html',
