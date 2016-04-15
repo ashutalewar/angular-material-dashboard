@@ -6,8 +6,8 @@ $warning-color: #E75753;
 
 
 // VARIABLES
-$left-sidenav-width: 110px;
-$widget-height: 310px;
+$left-sidenav-width: 200px;
+$widget-height: 300px;
 $font-weight-bold: 600;
 $font-size-large: 22px;
 
@@ -52,9 +52,6 @@ body {
 .messages {
   position: relative;
 
-  &-content {
-    height: 100vh;
-  }
 }
 
 .notifications-label {
@@ -74,14 +71,15 @@ body {
 .panel-widget {
   background-color: white;
 
-  &-toolbar {
-    box-shadow: none;
-    margin: 0;
-  }
+//  &-toolbar {
+ //   box-shadow: none;
+  //  margin: 0;
+  //}
 
-  &-tittle {
+/*  &-tittle {
     color: $text-color;
   }
+*/
 }
 
 .options {
